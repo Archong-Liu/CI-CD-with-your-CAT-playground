@@ -46,7 +46,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::awsid:role/role_name # 在這裡填入你的IAM Role ARN
+          role-to-assume: arn:aws:iam::390402542308:role/awscmd # 在這裡填入你的IAM Role ARN
           aws-region: ap-northeast-1
 
       - name: cdk deploy
